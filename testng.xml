@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/pc/IdeaProjects/AppiumAutomationFramework/src/test/java/GeneralStoreTesting">
+        <classes>
+            <class name="GeneralStoreTesting.TestCase1">
+                <methods>
+                    <include name="validateFillFormDetailsForShopping"/>
+                </methods>
+            </class>
+            <class name="GeneralStoreTesting.TestCase2">
+                <methods>
+                    <include name="verifyToastMessageErrorValidationForm"/>
+                </methods>
+            </class>
+            <class name="GeneralStoreTesting.TestCase3">
+                <methods>
+                    <include name="verifyScrollAndSelectProduct"/>
+                </methods>
+            </class>
+            <class name="GeneralStoreTesting.TestCase4">
+                <methods>
+                    <include name="verifyProductCartAmount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
