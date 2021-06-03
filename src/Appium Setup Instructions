@@ -10,7 +10,7 @@ Open Android Studio and configure Virtual device/Emulator
 Open Emulator and check if it is working.
 Download Node.js
 https://nodejs.org/en/download/
-Set Node_Home Environmental variables path
+Set Node_Home Environmental variables path:wq
 Set npm Environmental variables path
 Download Appium Server from Node
 Download Appium and Selenium Java client library
